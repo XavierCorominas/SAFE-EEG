@@ -12,6 +12,7 @@ Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
 
 **Reproducibility Instructions**
+
 This repository provides an example preprocessing script for cleaning EEG signals recorded during concurrent low-intensity transcranial focused ultrasound and EEG (tFUS–EEG). The script offers a simple yet effective approach to suppress short-latency artifacts that occur at the onset and offset of each tFUS pulse.
 
 
