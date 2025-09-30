@@ -47,5 +47,6 @@ The pipeline includes minimal processing steps:
 (3) Removal and cubic interpolation of segments containing sharp pulse artifacts (from -1.5ms to +1.5ms around each artifact, depending on EEG sampling frequency).
 (4) Band-pass filtering with a 2nd order zero-phase Butterworth filter, baseline correction (-210, -10ms) and re-referencing to the average.
 
+<img width="1869" height="1126" alt="Picture5" src="https://github.com/user-attachments/assets/636900c8-a232-4f3b-8388-ebd977b25fe7" />
 
 
