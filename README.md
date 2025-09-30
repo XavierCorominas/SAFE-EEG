@@ -1,4 +1,4 @@
-# **SAFE-TUS: Signal Artifact Filtering for EEG with FUS**
+# **SAFE-TUS: Signal Artifact Filtering for concurrent tFUS-EEG**
 
 ## Authors:
 ** **Xavier Corominas-Terue**<sup>^</sup>,...  & **Lasse Christiansen**<sup>#</sup>
@@ -11,7 +11,7 @@ Danish Research Center For Magnetic Resonance, DRCMR 2025.
 Please see for more details: 
 
 **Reproducibility Instructions**
-This repository provides an example preprocessing script for cleaning EEG recorded during concurrent transcranial focused ultrasound (tFUS–EEG). The script offers a simple yet effective approach to suppress short-latency artifacts that occur at the onset and offset of each tFUS pulse.
+This repository provides an example preprocessing script for cleaning EEG signals recorded during concurrent low-intensity transcranial focused ultrasound and EEG (tFUS–EEG). The script offers a simple yet effective approach to suppress short-latency artifacts that occur at the onset and offset of each tFUS pulse.
 
 
 **Artifact profiles**
