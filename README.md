@@ -29,9 +29,7 @@ In systems with embedded hardware high-pass filtering (e.g., ~0.016 Hz), slow tr
   
 **When you may need to adapt the code:**
 
-Depending on your acquisition hardware and built-in filters, tFUS pulse artifacts may instead present as DC step-like shift.
-
-If your recording system lacks hardware high-pass filtering (or uses a very low cutoff), adding a detrend or high-pass filter before the artifact-suppression step to handle DC steps appropriately may be recommended. The provided script is a starting point optimized for systems with a ~0.016 Hz hardware high-pass; please adjust the preprocessing (e.g., high-pass cutoff and artifact handling) to match your device’s filtering and the artifact morphology you observe.
+Depending on your acquisition hardware and built-in filters, tFUS pulse artifacts may instead present as DC step-like shift. If your recording system lacks hardware high-pass filtering (or uses a very low cutoff), adding a detrend or high-pass filter before the artifact-suppression step to handle DC steps appropriately may be recommended. The provided script is a starting point optimized for systems with a ~0.016 Hz hardware high-pass; please adjust the preprocessing (e.g., high-pass cutoff and artifact handling) to match your device’s filtering and the artifact morphology you observe.
 
 
 
@@ -41,8 +39,11 @@ The current script focuses on removing pulse-like artifacts. However, in realist
 
 
 **Processing EEG steps**
-The proposed processing inclused the following steps.
-
+The pipeline includes minimal processing steps: 
+(1) Epoching the data centered at the onset of the first pulse of the pulse train.
+(2) De-meaning.
+(3) Removal and cubic interpolation of segments containing sharp pulse artifacts (from -1.5ms to +1.5ms around each artifact, depending on EEG sampling frequency).
+(4) Band-pass filtering with a 2nd order zero-phase Butterworth filter, baseline correction (-210, -10ms) and re-referencing to the average.
 
 
 
