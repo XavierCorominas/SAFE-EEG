@@ -1,6 +1,6 @@
 %%  TUS-EEG processing. 
 
-% SAFE-TUS: Signal Artifact Filtering for EEG with FUS
+% SAFE-TUS: Signal Artifact Filtering for concurrent tFUS-EEG
 
 
 % DRCMR 2025 - XCT - BrainStim Methods group
