@@ -76,7 +76,7 @@ EEG.event = EEG.event(sort_idx);
 
 % Step 4: Compute latency differences to find stimulus trains
 lat_diff = diff(latencies);
-threshold = 1000; % <-- adjust this based on your actual ISI (inter-stimulus interval)
+threshold = 1000; % <-- adjust  based on your actual ISI (inter-stimulus interval)
 train_start_idx = [1, find(lat_diff > threshold) + 1];
 
 % Step 5: Rename events
@@ -103,7 +103,7 @@ EEG.urevent = EEG.urevent(sort_idx);
 
 % Step 4: Compute latency differences to find stimulus trains
 lat_diff = diff(latencies);
-threshold = 1000; % <-- adjust this based on your actual ISI (inter-stimulus interval)
+threshold = 1000; % <-- adjust based on your actual ISI (inter-stimulus interval)
 train_start_idx = [1, find(lat_diff > threshold) + 1];
 
 % Step 5: Rename urevents
@@ -191,7 +191,7 @@ EEG = pop_rejepoch( EEG, EEG.BadTr ,0);
 eeglab redraw
 
 
-%% 3. Interpolate sharp TUS pulses given  hardware (ACTICHAMP) filtering of DC artifacts. Withoud DC filering, artifacts may look like DC sharp step like transitions.
+%% 3. Interpolate sharp TUS pulses given hardware filtering of DC artifacts. Withoud DC filering, artifacts may look like DC sharp step like transitions.
 
 % Code assuming TUS pulse 10ms
 EEG = pop_tesa_removedata( EEG, [-1.5,1.5], [], {'S 15'} ); %remove from -1.5 to 1.5 ms to remove the up-phase of the DC
@@ -266,8 +266,8 @@ end
 %% 5.  Filtering, baseline correction and re-referencing to the average
 
 %fitler
- EEG = pop_tesa_filtbutter(EEG, 2, [], 4, 'highpass');
- EEG = tesa_filtbutter(EEG, [], 500, 4, 'lowpass');
+ EEG = pop_tesa_filtbutter(EEG, 2, [], 2, 'highpass');
+ EEG = tesa_filtbutter(EEG, [], 500, 2, 'lowpass');
 
 %baseline correction
 EEG = pop_rmbase(EEG, [-210 -10]); %ms
