@@ -5,10 +5,9 @@
 
 Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
-<sup>^</sup> First authorship 
+<sup>^</sup> First authorship (xavi@drcmr.dk) 
 <sup>#</sup> Senior Authorship
 
-Please see for more details: 
 
 **Reproducibility Instructions**
 This repository provides an example preprocessing script for cleaning EEG signals recorded during concurrent low-intensity transcranial focused ultrasound and EEG (tFUS–EEG). The script offers a simple yet effective approach to suppress short-latency artifacts that occur at the onset and offset of each tFUS pulse.
@@ -23,6 +22,10 @@ In systems with embedded hardware high-pass filtering (e.g., ~0.016 Hz), slow tr
 Depending on your acquisition hardware and built-in filters, tFUS pulse artifacts may instead present as DC step-like shift.
 
 If your recording system lacks hardware high-pass filtering (or uses a very low cutoff), adding a detrend or high-pass filter before the artifact-suppression step to handle DC steps appropriately may be recommended. The provided script is a starting point optimized for systems with a ~0.016 Hz hardware high-pass; please adjust the preprocessing (e.g., high-pass cutoff and artifact handling) to match your device’s filtering and the artifact morphology you observe.
+
+
+**Further considerations**
+The current script focuses on removing pulse-like artifacts. However, in realistic human experiments, additional artifacts are common. It is recommended extending the pipeline—if needed—to address ocular activity (blinks/saccades), muscular contamination, line noise (50/60 Hz and harmonics), motion/electrode drift, and other physiological or non-physiological sources that could confound the EEG.
 
 
 
