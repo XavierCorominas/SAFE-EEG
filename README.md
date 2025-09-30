@@ -6,7 +6,7 @@
 Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
 <sup>^</sup> First authorship (xavi@drcmr.dk) 
-<sup>#</sup> Senior Authorship
+<sup>#</sup> Senior Authorship (lassec@drcmr.dk)
 
 
 <img width="1301" height="904" alt="PictureEG" src="https://github.com/user-attachments/assets/725cae0d-cd09-41dc-a968-27c636908341" />
