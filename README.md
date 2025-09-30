@@ -5,8 +5,8 @@
 
 Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
-<sup>^</sup> First authorship (xavi@drcmr.dk) 
-<sup>#</sup> Senior Authorship (lassec@drcmr.dk)
+<sup>^</sup> First authorship
+<sup>#</sup> Senior Authorship 
 
 
 <img width="1330" height="924" alt="PictureEG" src="https://github.com/user-attachments/assets/92a97b8a-9941-450d-b90f-678389505913" />
@@ -45,4 +45,8 @@ The pipeline includes minimal processing steps:
 
 <img width="1966" height="1206" alt="Picture5" src="https://github.com/user-attachments/assets/5aaff59c-164c-45af-bddb-832dd3456a6a" />
 
+
+# **Contact**
+
+Xavier Corominas (xavi@drcmr.dk) 
 
