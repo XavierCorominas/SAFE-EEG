@@ -11,7 +11,8 @@ Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
 
 **Dependencies**
-The current script employs functions from EEGlab (https://eeglab.org/), and the TESA toolbox (https://github.com/nigelrogasch/TESA).  Please install them locally before executing the SAFE-EEG processing.
+
+The current processing script employs functions from EEGlab (https://eeglab.org/), and the TESA toolbox (https://github.com/nigelrogasch/TESA).  Please install them locally before executing the SAFE-EEG processing.
 
 
 **Reproducibility Instructions**
