@@ -12,7 +12,7 @@ Danish Research Center For Magnetic Resonance, DRCMR 2025.
 <img width="1330" height="924" alt="PictureEG" src="https://github.com/user-attachments/assets/92a97b8a-9941-450d-b90f-678389505913" />
 
 
-**Dependencies:** The current processing script employ functions from EEGlab (https://eeglab.org/), and the TESA toolbox (https://github.com/nigelrogasch/TESA).  Please install them locally before executing the SAFE-EEG processing.
+**Dependencies:** The current processing script employs functions from EEGlab (https://eeglab.org/), and the TESA toolbox (https://github.com/nigelrogasch/TESA).  Please install them locally before executing the SAFE-EEG processing.
 
   
 
