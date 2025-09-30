@@ -1,7 +1,7 @@
 # **SAFE-TUS: Signal Artifact Filtering for concurrent tFUS-EEG**
 
 **Authors:**
-** **Xavier Corominas-Teruel**<sup>^</sup>,...  & **Lasse Christiansen**<sup>#</sup>
+**Xavier Corominas-Teruel**<sup>^</sup>,...  & **Lasse Christiansen**<sup>#</sup>
 
 Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
