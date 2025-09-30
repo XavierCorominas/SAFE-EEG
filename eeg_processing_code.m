@@ -6,7 +6,7 @@
 % DRCMR 2025 - XCT - BrainStim Methods group
 
 % --> GENERAL INFO:
-% The current example preprocessing pieplpile is intended to provide a simple and
+% The current example preprocessing piepline is intended to provide a simple and
 % fast preprocessing pipeline focusing on removing DC-coupling like
 % artifacts. Further artifacts (muscular, line noise, ocular...) may be
 % considered.
@@ -19,7 +19,7 @@
 % 2.1) Remove bad trials and electrodes (optionally)
 % 3) Remove TUS artifacts
 % 4) Interpolate removed signal
-% 5) Bandpass filtering 2-500Hz, Baseline correction and  Rereferencing to the average.
+% 5) Bandpass filtering, Baseline correction and  Rereferencing to the average.
 % 8) Save datasets
 
 %% Addpaths
