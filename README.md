@@ -10,6 +10,9 @@ Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
 
 
+**Dependencies**
+The current script employs functions from EEGlab (https://eeglab.org/), and the TESA toolbox (https://github.com/nigelrogasch/TESA).  Please install them locally before executing the SAFE-EEG processing.
+
 
 **Reproducibility Instructions**
 
@@ -20,7 +23,7 @@ This repository provides an example preprocessing script for cleaning EEG signal
 
 In systems with embedded hardware high-pass filtering (e.g., ~0.016 Hz), slow trends are removed and tFUS artifacts typically appear as sharp transitions at pulse onset/offset. This is the scenario assumed in the example.
 
-**When you may need to adapt the code**
+**When you may need to adapt the code:**
 
 Depending on your acquisition hardware and built-in filters, tFUS pulse artifacts may instead present as DC step-like shift.
 
@@ -29,6 +32,12 @@ If your recording system lacks hardware high-pass filtering (or uses a very low 
 
 **Further considerations**
 The current script focuses on removing pulse-like artifacts. However, in realistic human experiments, additional artifacts are common. It is recommended extending the pipeline—if needed—to address ocular activity (blinks/saccades), muscular contamination, line noise (50/60 Hz and harmonics), motion/electrode drift, and other physiological or non-physiological sources that could confound the EEG.
+
+
+
+**Processing EEG steps**
+The proposed processing inclused the following steps.
+
 
 
 
