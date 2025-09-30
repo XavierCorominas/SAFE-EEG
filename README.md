@@ -1,4 +1,4 @@
-# **SAFE-TUS: Signal Artifact Filtering for concurrent tFUS-EEG**
+# **SAFE-FUS: Signal Artifact Filtering for concurrent tFUS-EEG**
 
 **Authors:**
 **Xavier Corominas-Teruel**<sup>^</sup>,...  & **Lasse Christiansen**<sup>#</sup>
