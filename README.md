@@ -5,8 +5,8 @@
 
 Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
-<sup>^</sup> First authorship
-<sup>#</sup> Senior Authorship 
+<sup>^</sup>First authorship
+<sup>#</sup>Senior Authorship 
 
 
 <img width="1330" height="924" alt="PictureEG" src="https://github.com/user-attachments/assets/92a97b8a-9941-450d-b90f-678389505913" />
