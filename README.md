@@ -31,7 +31,7 @@ Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
 
 
-**Processing EEG steps:**
+# **Processing EEG steps:**
 
 The pipeline includes minimal processing steps:
 
