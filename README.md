@@ -48,5 +48,5 @@ The pipeline includes minimal processing steps:
 
 # **Contact**
 
-Xavier Corominas (xavi@drcmr.dk) 
+Xavier Corominas-Teruel (xavi@drcmr.dk) 
 
