@@ -27,7 +27,7 @@ Danish Research Center For Magnetic Resonance, DRCMR 2025.
 
 
 
-**Further considerations:** The current script focuses on removing pulse-like artifacts. However, in realistic human experiments, additional artifacts are common. It is recommended extending the pipeline—if needed—to address ocular activity (blinks/saccades), muscular contamination, line noise (50/60 Hz and harmonics), motion/electrode drift, and other physiological or non-physiological sources that could confound the EEG.
+**Further considerations:** The current script focuses on removing pulse-like artifacts. The artifacts are likely to occur only when the tFUS driver system and the EEG amplifier are physically coupled. In realistic human experiments, additional artifacts are common. It is recommended extending the pipeline—if needed—to address ocular activity (blinks/saccades), muscular contamination, line noise (50/60 Hz and harmonics), motion/electrode drift, and other physiological or non-physiological sources that could confound the EEG.
 
 
 
