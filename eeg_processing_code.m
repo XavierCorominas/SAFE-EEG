@@ -215,7 +215,7 @@ ylabel('Amplitude (µV)', 'FontSize', 24, 'FontName', 'Arial');
 
 %% 4. INTERPOLATE DATA
 
-EEG = pop_tesa_interpdata( EEG, 'cubic', [50,50] );
+EEG = pop_tesa_interpdata( EEG, 'arblend', [20,20] );
 
 %eeglab redraw
 
