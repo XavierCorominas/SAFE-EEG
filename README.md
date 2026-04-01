@@ -42,7 +42,6 @@ The pipeline includes minimal processing steps:
 
 (4) Band-pass filtering with a 2nd order zero-phase Butterworth filter, baseline correction (-210, -10ms) and re-referencing to the average.
 
-<img width="1966" height="1206" alt="Picture5" src="https://github.com/user-attachments/assets/5aaff59c-164c-45af-bddb-832dd3456a6a" />
 
 
 # **Contact**
