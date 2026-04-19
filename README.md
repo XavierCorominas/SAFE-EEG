@@ -3,7 +3,7 @@
 
 **Xavier Corominas-Teruel**,...  & **Lasse Christiansen**
 
-Danish Research Center For Magnetic Resonance, DRCMR 2025.
+Danish Research Center For Magnetic Resonance, DRCMR 2025-2026.
 
 
 
